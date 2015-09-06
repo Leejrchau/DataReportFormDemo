@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184C197C1B86FD8E002205C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C197B1B86FD8E002205C9 /* main.m */; };
+		184C197F1B86FD8E002205C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C197E1B86FD8E002205C9 /* AppDelegate.m */; };
+		184C19821B86FD8E002205C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19811B86FD8E002205C9 /* ViewController.m */; };
+		184C19851B86FD8E002205C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C19831B86FD8E002205C9 /* Main.storyboard */; };
+		184C19871B86FD8E002205C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C19861B86FD8E002205C9 /* Images.xcassets */; };
+		184C198A1B86FD8E002205C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19881B86FD8E002205C9 /* LaunchScreen.xib */; };
+		184C19961B86FD8E002205C9 /* DataReportFormDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19951B86FD8E002205C9 /* DataReportFormDemoTests.m */; };
+		184C19A11B86FDFC002205C9 /* DataReportFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19A01B86FDFC002205C9 /* DataReportFormView.m */; };
+		184C19A51B86FF1C002205C9 /* DataReportItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19A31B86FF1C002205C9 /* DataReportItemCell.m */; };
+		184C19A61B86FF1C002205C9 /* DataReportItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19A41B86FF1C002205C9 /* DataReportItemCell.xib */; };
+		184C19A91B86FFA6002205C9 /* BorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19A81B86FFA6002205C9 /* BorderLabel.m */; };
+		184C19AC1B86FFB8002205C9 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19AB1B86FFB8002205C9 /* BorderView.m */; };
+		184C19AF1B86FFD9002205C9 /* DataReportItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19AE1B86FFD9002205C9 /* DataReportItemModel.m */; };
+		184C19B91B870258002205C9 /* DataReportAddItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19B11B870258002205C9 /* DataReportAddItemCell.m */; };
+		184C19BA1B870258002205C9 /* DataReportAddItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19B21B870258002205C9 /* DataReportAddItemCell.xib */; };
+		184C19BB1B870258002205C9 /* DataReportAddPartsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19B41B870258002205C9 /* DataReportAddPartsCell.m */; };
+		184C19BC1B870258002205C9 /* DataReportAddPartsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19B51B870258002205C9 /* DataReportAddPartsCell.xib */; };
+		184C19BD1B870258002205C9 /* DataReportPartsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19B71B870258002205C9 /* DataReportPartsCell.m */; };
+		184C19BE1B870258002205C9 /* DataReportPartsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19B81B870258002205C9 /* DataReportPartsCell.xib */; };
+		184C19C71B87036F002205C9 /* DataReportDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19C61B87036F002205C9 /* DataReportDateCell.m */; };
+		184C19C91B870383002205C9 /* DataReportDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19C81B870383002205C9 /* DataReportDateCell.xib */; };
+		184C19CC1B8707EE002205C9 /* DataReportTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19CB1B8707EE002205C9 /* DataReportTitleCell.m */; };
+		184C19CE1B870844002205C9 /* DataReportTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C19CD1B870844002205C9 /* DataReportTitleCell.xib */; };
+		184C19D11B870FE2002205C9 /* DataReportSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C19D01B870FE2002205C9 /* DataReportSectionModel.m */; };
+		A64073CB1B89BAE600271C9B /* shangchu.png in Resources */ = {isa = PBXBuildFile; fileRef = A64073C81B89BAE600271C9B /* shangchu.png */; };
+		A64073CC1B89BAE600271C9B /* zidingyibeijian.png in Resources */ = {isa = PBXBuildFile; fileRef = A64073C91B89BAE600271C9B /* zidingyibeijian.png */; };
+		A64073CD1B89BAE600271C9B /* zidingyixiangmu.png in Resources */ = {isa = PBXBuildFile; fileRef = A64073CA1B89BAE600271C9B /* zidingyixiangmu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184C19901B86FD8E002205C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184C196E1B86FD8E002205C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184C19751B86FD8E002205C9;
+			remoteInfo = DataReportFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184C19761B86FD8E002205C9 /* DataReportFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataReportFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C197A1B86FD8E002205C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C197B1B86FD8E002205C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184C197D1B86FD8E002205C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184C197E1B86FD8E002205C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184C19801B86FD8E002205C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184C19811B86FD8E002205C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184C19841B86FD8E002205C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184C19861B86FD8E002205C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184C19891B86FD8E002205C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		184C198F1B86FD8E002205C9 /* DataReportFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataReportFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C19941B86FD8E002205C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C19951B86FD8E002205C9 /* DataReportFormDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataReportFormDemoTests.m; sourceTree = "<group>"; };
+		184C199F1B86FDFC002205C9 /* DataReportFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportFormView.h; sourceTree = "<group>"; };
+		184C19A01B86FDFC002205C9 /* DataReportFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportFormView.m; sourceTree = "<group>"; };
+		184C19A21B86FF1C002205C9 /* DataReportItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportItemCell.h; sourceTree = "<group>"; };
+		184C19A31B86FF1C002205C9 /* DataReportItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportItemCell.m; sourceTree = "<group>"; };
+		184C19A41B86FF1C002205C9 /* DataReportItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportItemCell.xib; sourceTree = "<group>"; };
+		184C19A71B86FFA6002205C9 /* BorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderLabel.h; sourceTree = "<group>"; };
+		184C19A81B86FFA6002205C9 /* BorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderLabel.m; sourceTree = "<group>"; };
+		184C19AA1B86FFB8002205C9 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderView.h; sourceTree = "<group>"; };
+		184C19AB1B86FFB8002205C9 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderView.m; sourceTree = "<group>"; };
+		184C19AD1B86FFD9002205C9 /* DataReportItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportItemModel.h; sourceTree = "<group>"; };
+		184C19AE1B86FFD9002205C9 /* DataReportItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportItemModel.m; sourceTree = "<group>"; };
+		184C19B01B870258002205C9 /* DataReportAddItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportAddItemCell.h; sourceTree = "<group>"; };
+		184C19B11B870258002205C9 /* DataReportAddItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportAddItemCell.m; sourceTree = "<group>"; };
+		184C19B21B870258002205C9 /* DataReportAddItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportAddItemCell.xib; sourceTree = "<group>"; };
+		184C19B31B870258002205C9 /* DataReportAddPartsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportAddPartsCell.h; sourceTree = "<group>"; };
+		184C19B41B870258002205C9 /* DataReportAddPartsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportAddPartsCell.m; sourceTree = "<group>"; };
+		184C19B51B870258002205C9 /* DataReportAddPartsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportAddPartsCell.xib; sourceTree = "<group>"; };
+		184C19B61B870258002205C9 /* DataReportPartsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportPartsCell.h; sourceTree = "<group>"; };
+		184C19B71B870258002205C9 /* DataReportPartsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportPartsCell.m; sourceTree = "<group>"; };
+		184C19B81B870258002205C9 /* DataReportPartsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportPartsCell.xib; sourceTree = "<group>"; };
+		184C19C51B87036F002205C9 /* DataReportDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportDateCell.h; sourceTree = "<group>"; };
+		184C19C61B87036F002205C9 /* DataReportDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportDateCell.m; sourceTree = "<group>"; };
+		184C19C81B870383002205C9 /* DataReportDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportDateCell.xib; sourceTree = "<group>"; };
+		184C19CA1B8707EE002205C9 /* DataReportTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportTitleCell.h; sourceTree = "<group>"; };
+		184C19CB1B8707EE002205C9 /* DataReportTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportTitleCell.m; sourceTree = "<group>"; };
+		184C19CD1B870844002205C9 /* DataReportTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataReportTitleCell.xib; sourceTree = "<group>"; };
+		184C19CF1B870FE2002205C9 /* DataReportSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReportSectionModel.h; sourceTree = "<group>"; };
+		184C19D01B870FE2002205C9 /* DataReportSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReportSectionModel.m; sourceTree = "<group>"; };
+		A64073C81B89BAE600271C9B /* shangchu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shangchu.png; sourceTree = "<group>"; };
+		A64073C91B89BAE600271C9B /* zidingyibeijian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidingyibeijian.png; sourceTree = "<group>"; };
+		A64073CA1B89BAE600271C9B /* zidingyixiangmu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidingyixiangmu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184C19731B86FD8E002205C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184C198C1B86FD8E002205C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184C196D1B86FD8E002205C9 = {
+			isa = PBXGroup;
+			children = (
+				184C19781B86FD8E002205C9 /* DataReportFormDemo */,
+				184C19921B86FD8E002205C9 /* DataReportFormDemoTests */,
+				184C19771B86FD8E002205C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184C19771B86FD8E002205C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184C19761B86FD8E002205C9 /* DataReportFormDemo.app */,
+				184C198F1B86FD8E002205C9 /* DataReportFormDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184C19781B86FD8E002205C9 /* DataReportFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A64073C81B89BAE600271C9B /* shangchu.png */,
+				A64073C91B89BAE600271C9B /* zidingyibeijian.png */,
+				A64073CA1B89BAE600271C9B /* zidingyixiangmu.png */,
+				184C19B01B870258002205C9 /* DataReportAddItemCell.h */,
+				184C19B11B870258002205C9 /* DataReportAddItemCell.m */,
+				184C19B21B870258002205C9 /* DataReportAddItemCell.xib */,
+				184C19B31B870258002205C9 /* DataReportAddPartsCell.h */,
+				184C19B41B870258002205C9 /* DataReportAddPartsCell.m */,
+				184C19B51B870258002205C9 /* DataReportAddPartsCell.xib */,
+				184C19B61B870258002205C9 /* DataReportPartsCell.h */,
+				184C19B71B870258002205C9 /* DataReportPartsCell.m */,
+				184C19B81B870258002205C9 /* DataReportPartsCell.xib */,
+				184C19AD1B86FFD9002205C9 /* DataReportItemModel.h */,
+				184C19AE1B86FFD9002205C9 /* DataReportItemModel.m */,
+				184C19AA1B86FFB8002205C9 /* BorderView.h */,
+				184C19AB1B86FFB8002205C9 /* BorderView.m */,
+				184C19A71B86FFA6002205C9 /* BorderLabel.h */,
+				184C19A81B86FFA6002205C9 /* BorderLabel.m */,
+				184C19A21B86FF1C002205C9 /* DataReportItemCell.h */,
+				184C19A31B86FF1C002205C9 /* DataReportItemCell.m */,
+				184C19A41B86FF1C002205C9 /* DataReportItemCell.xib */,
+				184C197D1B86FD8E002205C9 /* AppDelegate.h */,
+				184C197E1B86FD8E002205C9 /* AppDelegate.m */,
+				184C19801B86FD8E002205C9 /* ViewController.h */,
+				184C19811B86FD8E002205C9 /* ViewController.m */,
+				184C19831B86FD8E002205C9 /* Main.storyboard */,
+				184C19861B86FD8E002205C9 /* Images.xcassets */,
+				184C19881B86FD8E002205C9 /* LaunchScreen.xib */,
+				184C19791B86FD8E002205C9 /* Supporting Files */,
+				184C199F1B86FDFC002205C9 /* DataReportFormView.h */,
+				184C19A01B86FDFC002205C9 /* DataReportFormView.m */,
+				184C19C51B87036F002205C9 /* DataReportDateCell.h */,
+				184C19C61B87036F002205C9 /* DataReportDateCell.m */,
+				184C19C81B870383002205C9 /* DataReportDateCell.xib */,
+				184C19CA1B8707EE002205C9 /* DataReportTitleCell.h */,
+				184C19CB1B8707EE002205C9 /* DataReportTitleCell.m */,
+				184C19CD1B870844002205C9 /* DataReportTitleCell.xib */,
+				184C19CF1B870FE2002205C9 /* DataReportSectionModel.h */,
+				184C19D01B870FE2002205C9 /* DataReportSectionModel.m */,
+			);
+			path = DataReportFormDemo;
+			sourceTree = "<group>";
+		};
+		184C19791B86FD8E002205C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184C197A1B86FD8E002205C9 /* Info.plist */,
+				184C197B1B86FD8E002205C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184C19921B86FD8E002205C9 /* DataReportFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				184C19951B86FD8E002205C9 /* DataReportFormDemoTests.m */,
+				184C19931B86FD8E002205C9 /* Supporting Files */,
+			);
+			path = DataReportFormDemoTests;
+			sourceTree = "<group>";
+		};
+		184C19931B86FD8E002205C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184C19941B86FD8E002205C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184C19751B86FD8E002205C9 /* DataReportFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184C19991B86FD8E002205C9 /* Build configuration list for PBXNativeTarget "DataReportFormDemo" */;
+			buildPhases = (
+				184C19721B86FD8E002205C9 /* Sources */,
+				184C19731B86FD8E002205C9 /* Frameworks */,
+				184C19741B86FD8E002205C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataReportFormDemo;
+			productName = DataReportFormDemo;
+			productReference = 184C19761B86FD8E002205C9 /* DataReportFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184C198E1B86FD8E002205C9 /* DataReportFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184C199C1B86FD8E002205C9 /* Build configuration list for PBXNativeTarget "DataReportFormDemoTests" */;
+			buildPhases = (
+				184C198B1B86FD8E002205C9 /* Sources */,
+				184C198C1B86FD8E002205C9 /* Frameworks */,
+				184C198D1B86FD8E002205C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184C19911B86FD8E002205C9 /* PBXTargetDependency */,
+			);
+			name = DataReportFormDemoTests;
+			productName = DataReportFormDemoTests;
+			productReference = 184C198F1B86FD8E002205C9 /* DataReportFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184C196E1B86FD8E002205C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					184C19751B86FD8E002205C9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					184C198E1B86FD8E002205C9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 184C19751B86FD8E002205C9;
+					};
+				};
+			};
+			buildConfigurationList = 184C19711B86FD8E002205C9 /* Build configuration list for PBXProject "DataReportFormDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184C196D1B86FD8E002205C9;
+			productRefGroup = 184C19771B86FD8E002205C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184C19751B86FD8E002205C9 /* DataReportFormDemo */,
+				184C198E1B86FD8E002205C9 /* DataReportFormDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184C19741B86FD8E002205C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64073CC1B89BAE600271C9B /* zidingyibeijian.png in Resources */,
+				184C19BC1B870258002205C9 /* DataReportAddPartsCell.xib in Resources */,
+				184C19A61B86FF1C002205C9 /* DataReportItemCell.xib in Resources */,
+				184C19CE1B870844002205C9 /* DataReportTitleCell.xib in Resources */,
+				184C19BA1B870258002205C9 /* DataReportAddItemCell.xib in Resources */,
+				184C19851B86FD8E002205C9 /* Main.storyboard in Resources */,
+				184C198A1B86FD8E002205C9 /* LaunchScreen.xib in Resources */,
+				184C19871B86FD8E002205C9 /* Images.xcassets in Resources */,
+				A64073CB1B89BAE600271C9B /* shangchu.png in Resources */,
+				A64073CD1B89BAE600271C9B /* zidingyixiangmu.png in Resources */,
+				184C19C91B870383002205C9 /* DataReportDateCell.xib in Resources */,
+				184C19BE1B870258002205C9 /* DataReportPartsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184C198D1B86FD8E002205C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184C19721B86FD8E002205C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C19A11B86FDFC002205C9 /* DataReportFormView.m in Sources */,
+				184C19CC1B8707EE002205C9 /* DataReportTitleCell.m in Sources */,
+				184C19821B86FD8E002205C9 /* ViewController.m in Sources */,
+				184C19BB1B870258002205C9 /* DataReportAddPartsCell.m in Sources */,
+				184C19A91B86FFA6002205C9 /* BorderLabel.m in Sources */,
+				184C197F1B86FD8E002205C9 /* AppDelegate.m in Sources */,
+				184C19BD1B870258002205C9 /* DataReportPartsCell.m in Sources */,
+				184C197C1B86FD8E002205C9 /* main.m in Sources */,
+				184C19AC1B86FFB8002205C9 /* BorderView.m in Sources */,
+				184C19D11B870FE2002205C9 /* DataReportSectionModel.m in Sources */,
+				184C19B91B870258002205C9 /* DataReportAddItemCell.m in Sources */,
+				184C19AF1B86FFD9002205C9 /* DataReportItemModel.m in Sources */,
+				184C19A51B86FF1C002205C9 /* DataReportItemCell.m in Sources */,
+				184C19C71B87036F002205C9 /* DataReportDateCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184C198B1B86FD8E002205C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C19961B86FD8E002205C9 /* DataReportFormDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184C19911B86FD8E002205C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184C19751B86FD8E002205C9 /* DataReportFormDemo */;
+			targetProxy = 184C19901B86FD8E002205C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184C19831B86FD8E002205C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184C19841B86FD8E002205C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184C19881B86FD8E002205C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184C19891B86FD8E002205C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184C19971B86FD8E002205C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		184C19981B86FD8E002205C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184C199A1B86FD8E002205C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataReportFormDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184C199B1B86FD8E002205C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataReportFormDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184C199D1B86FD8E002205C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataReportFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataReportFormDemo.app/DataReportFormDemo";
+			};
+			name = Debug;
+		};
+		184C199E1B86FD8E002205C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataReportFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataReportFormDemo.app/DataReportFormDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184C19711B86FD8E002205C9 /* Build configuration list for PBXProject "DataReportFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C19971B86FD8E002205C9 /* Debug */,
+				184C19981B86FD8E002205C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184C19991B86FD8E002205C9 /* Build configuration list for PBXNativeTarget "DataReportFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C199A1B86FD8E002205C9 /* Debug */,
+				184C199B1B86FD8E002205C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184C199C1B86FD8E002205C9 /* Build configuration list for PBXNativeTarget "DataReportFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C199D1B86FD8E002205C9 /* Debug */,
+				184C199E1B86FD8E002205C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184C196E1B86FD8E002205C9 /* Project object */;
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DataReportAddItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="827" height="23"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1Q-Wi-sK9" customClass="BorderView">
+                    <rect key="frame" x="0.0" y="0.0" width="827" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PRm-PO-hBx" customClass="BorderView">
+                    <rect key="frame" x="0.0" y="0.0" width="381" height="23"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vc-hc-lGM">
+                            <rect key="frame" x="136" y="4" width="110" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="109.5" id="cLx-ca-EFj"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="zidingyixiangmu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addItemAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="KQs-0j-4TZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="1Vc-hc-lGM" secondAttribute="bottom" constant="4" id="3fH-xB-4Eo"/>
+                        <constraint firstItem="1Vc-hc-lGM" firstAttribute="top" secondItem="PRm-PO-hBx" secondAttribute="top" constant="4" id="4GK-ma-TwQ"/>
+                        <constraint firstAttribute="width" constant="381" id="CsA-TT-J7I"/>
+                        <constraint firstAttribute="centerX" secondItem="1Vc-hc-lGM" secondAttribute="centerX" id="D3q-Jg-MIU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bte-gh-tg2" customClass="BorderView">
+                    <rect key="frame" x="381" y="0.0" width="100" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="50f-JE-yMq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1i-yy-ji3" customClass="BorderView">
+                    <rect key="frame" x="481" y="0.0" width="130" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="nzs-0D-KOM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuM-Iw-Zo9" customClass="BorderView">
+                    <rect key="frame" x="611" y="0.0" width="130" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="BbI-bh-3Iq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICe-bI-7Zp" customClass="BorderView">
+                    <rect key="frame" x="741" y="0.0" width="85" height="23"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ICe-bI-7Zp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4DQ-p9-U1u"/>
+                <constraint firstItem="GuM-Iw-Zo9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4Hs-EQ-fFp"/>
+                <constraint firstItem="PRm-PO-hBx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7kh-l6-A5Y"/>
+                <constraint firstItem="c1Q-Wi-sK9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C2V-W1-Pqx"/>
+                <constraint firstAttribute="bottom" secondItem="GuM-Iw-Zo9" secondAttribute="bottom" id="I4S-a9-Qp5"/>
+                <constraint firstAttribute="trailing" secondItem="c1Q-Wi-sK9" secondAttribute="trailing" id="LGL-A5-MYD"/>
+                <constraint firstItem="bte-gh-tg2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MVc-nf-2P9"/>
+                <constraint firstItem="c1Q-Wi-sK9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Tva-EA-sJN"/>
+                <constraint firstItem="GuM-Iw-Zo9" firstAttribute="leading" secondItem="i1i-yy-ji3" secondAttribute="trailing" id="XOw-RD-Fzz"/>
+                <constraint firstItem="PRm-PO-hBx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XYn-p0-BTA"/>
+                <constraint firstItem="i1i-yy-ji3" firstAttribute="leading" secondItem="bte-gh-tg2" secondAttribute="trailing" id="Xfn-Ja-1qr"/>
+                <constraint firstAttribute="bottom" secondItem="PRm-PO-hBx" secondAttribute="bottom" id="XuQ-uK-iQy"/>
+                <constraint firstAttribute="trailing" secondItem="ICe-bI-7Zp" secondAttribute="trailing" constant="1" id="ZDu-yL-aue"/>
+                <constraint firstAttribute="bottom" secondItem="bte-gh-tg2" secondAttribute="bottom" id="a5r-mE-MjA"/>
+                <constraint firstAttribute="bottom" secondItem="i1i-yy-ji3" secondAttribute="bottom" id="dPX-W2-wqU"/>
+                <constraint firstAttribute="bottom" secondItem="ICe-bI-7Zp" secondAttribute="bottom" id="gv4-Mn-vyJ"/>
+                <constraint firstAttribute="bottom" secondItem="c1Q-Wi-sK9" secondAttribute="bottom" id="hL8-xo-7QZ"/>
+                <constraint firstItem="i1i-yy-ji3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jP2-R6-dkQ"/>
+                <constraint firstItem="ICe-bI-7Zp" firstAttribute="leading" secondItem="GuM-Iw-Zo9" secondAttribute="trailing" id="jW6-mA-UKb"/>
+                <constraint firstItem="bte-gh-tg2" firstAttribute="leading" secondItem="PRm-PO-hBx" secondAttribute="trailing" id="ppB-lx-sfw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addButton" destination="1Vc-hc-lGM" id="Wzw-1n-Tnl"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="418.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zidingyixiangmu.png" width="219" height="30"/>
+    </resources>
+</document>

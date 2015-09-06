@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DataReportAddPartsCell">
+            <rect key="frame" x="0.0" y="0.0" width="827" height="23"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9a-5P-d15" customClass="BorderView">
+                    <rect key="frame" x="0.0" y="0.0" width="827" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sPX-vW-fb5" customClass="BorderView">
+                    <rect key="frame" x="0.0" y="0.0" width="191" height="23"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpg-Bm-bNy">
+                            <rect key="frame" x="41" y="4" width="111" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="111" id="h11-dy-qeD"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="zidingyibeijian.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addPartsAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Tiv-HW-T7b"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="vpg-Bm-bNy" secondAttribute="centerX" constant="-1" id="6d3-0v-9sz"/>
+                        <constraint firstAttribute="width" constant="191" id="UjE-dF-fdT"/>
+                        <constraint firstItem="vpg-Bm-bNy" firstAttribute="top" secondItem="sPX-vW-fb5" secondAttribute="top" constant="4" id="WOl-l4-Kgj"/>
+                        <constraint firstAttribute="bottom" secondItem="vpg-Bm-bNy" secondAttribute="bottom" constant="4" id="ede-eY-9tb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1x-D4-wFS" customClass="BorderView">
+                    <rect key="frame" x="191" y="0.0" width="190" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="190" id="Aoc-ct-GKx"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPL-7w-LEK" customClass="BorderView">
+                    <rect key="frame" x="381" y="0.0" width="100" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="YcN-54-vuz"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cg2-PU-Rca" customClass="BorderView">
+                    <rect key="frame" x="481" y="0.0" width="130" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="veB-cg-7vQ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGo-wj-ndc" customClass="BorderView">
+                    <rect key="frame" x="611" y="0.0" width="130" height="23"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="lg9-I0-B4R"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFv-FG-ioZ" customClass="BorderView">
+                    <rect key="frame" x="741" y="0.0" width="87" height="23"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FGo-wj-ndc" firstAttribute="leading" secondItem="Cg2-PU-Rca" secondAttribute="trailing" id="2KI-t5-Vu9"/>
+                <constraint firstItem="tFv-FG-ioZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2yc-Bx-LZB"/>
+                <constraint firstAttribute="bottom" secondItem="tFv-FG-ioZ" secondAttribute="bottom" id="4di-KH-vJK"/>
+                <constraint firstItem="P1x-D4-wFS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5Fe-1Y-r7h"/>
+                <constraint firstAttribute="bottom" secondItem="I9a-5P-d15" secondAttribute="bottom" id="7k3-xU-VRB"/>
+                <constraint firstItem="rPL-7w-LEK" firstAttribute="leading" secondItem="P1x-D4-wFS" secondAttribute="trailing" id="9PR-cU-CSt"/>
+                <constraint firstAttribute="trailing" secondItem="tFv-FG-ioZ" secondAttribute="trailing" constant="-1" id="AkG-GD-DM9"/>
+                <constraint firstItem="P1x-D4-wFS" firstAttribute="leading" secondItem="sPX-vW-fb5" secondAttribute="trailing" id="Amd-s8-5WT"/>
+                <constraint firstItem="sPX-vW-fb5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="G5e-JS-wxt"/>
+                <constraint firstItem="rPL-7w-LEK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jwa-jG-RIH"/>
+                <constraint firstAttribute="bottom" secondItem="sPX-vW-fb5" secondAttribute="bottom" id="LIr-nd-ePY"/>
+                <constraint firstItem="Cg2-PU-Rca" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Nq6-uo-vJt"/>
+                <constraint firstItem="I9a-5P-d15" firstAttribute="leading" secondItem="sPX-vW-fb5" secondAttribute="trailing" constant="-191" id="QEF-ti-P3I"/>
+                <constraint firstItem="tFv-FG-ioZ" firstAttribute="leading" secondItem="I9a-5P-d15" secondAttribute="trailing" constant="-86" id="YzP-q2-cy0"/>
+                <constraint firstAttribute="bottom" secondItem="Cg2-PU-Rca" secondAttribute="bottom" id="a0v-Fo-2Vf"/>
+                <constraint firstItem="FGo-wj-ndc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="c6s-6O-dhN"/>
+                <constraint firstAttribute="bottom" secondItem="FGo-wj-ndc" secondAttribute="bottom" id="hYK-ed-L3V"/>
+                <constraint firstItem="Cg2-PU-Rca" firstAttribute="leading" secondItem="rPL-7w-LEK" secondAttribute="trailing" id="qDS-dR-FpW"/>
+                <constraint firstAttribute="bottom" secondItem="P1x-D4-wFS" secondAttribute="bottom" id="uBk-4W-PO3"/>
+                <constraint firstItem="I9a-5P-d15" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ugw-mo-mcr"/>
+                <constraint firstItem="sPX-vW-fb5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="voO-2r-tZ3"/>
+                <constraint firstItem="tFv-FG-ioZ" firstAttribute="leading" secondItem="FGo-wj-ndc" secondAttribute="trailing" id="wDd-cJ-xIT"/>
+                <constraint firstAttribute="bottom" secondItem="rPL-7w-LEK" secondAttribute="bottom" id="xZ6-lj-sju"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addButton" destination="vpg-Bm-bNy" id="RuC-US-RJq"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="350.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zidingyibeijian.png" width="222" height="30"/>
+    </resources>
+</document>

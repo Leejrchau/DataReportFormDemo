@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DataReportDateCell">
+            <rect key="frame" x="0.0" y="0.0" width="828" height="23"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vM-tK-B3D" customClass="BorderView">
+                    <rect key="frame" x="0.0" y="0.0" width="827" height="23"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总计金额(元):1000.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lN-tM-Oym">
+                            <rect key="frame" x="607" y="0.0" width="200" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="hqR-AR-KRu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.76470588240000004" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7lN-tM-Oym" secondAttribute="trailing" constant="20" id="BO4-qp-8bN"/>
+                        <constraint firstAttribute="bottom" secondItem="7lN-tM-Oym" secondAttribute="bottom" id="R1Q-8v-KvX"/>
+                        <constraint firstItem="7lN-tM-Oym" firstAttribute="top" secondItem="5vM-tK-B3D" secondAttribute="top" id="Z36-bW-0Px"/>
+                        <constraint firstAttribute="width" constant="827" id="jNw-as-69Z"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一次保养时间:2015-06-12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmL-wE-WjQ">
+                    <rect key="frame" x="20" y="0.0" width="200" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Up6-d4-Eg6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901959999995" green="0.76470588240000004" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VmL-wE-WjQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Efk-aZ-YmW"/>
+                <constraint firstAttribute="bottom" secondItem="5vM-tK-B3D" secondAttribute="bottom" id="NaD-pp-B6R"/>
+                <constraint firstItem="VmL-wE-WjQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T5J-te-3KE"/>
+                <constraint firstItem="5vM-tK-B3D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eJP-Ik-zZ4"/>
+                <constraint firstAttribute="bottom" secondItem="VmL-wE-WjQ" secondAttribute="bottom" id="rXZ-GV-gdH"/>
+                <constraint firstItem="5vM-tK-B3D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w5T-U5-QdE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="313" y="395.5"/>
+        </view>
+    </objects>
+</document>
